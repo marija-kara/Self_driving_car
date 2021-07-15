@@ -240,6 +240,7 @@ def augment_image(img, angle, p=1.0):
 
 def generator(inputs, targets, batch_size = 32, is_training=True):
     images = inputs
+    global ang
     while True:
       for i in range(0, len(images), batch_size):
           X_batch = []
