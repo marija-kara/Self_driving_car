@@ -17,13 +17,13 @@ Submission includes all required files and can be used to run the simulator in a
 **Our project includes the following files:**
 
 🔴-	model.py containing the script to create and train the model
--	drive.py for driving the car in autonomous mode
+-	[drive.py](https://github.com/marija-kara/Self_driving_car/blob/main/drive.py) for driving the car in autonomous mode
 
 🔴-	model.h5 containing a trained convolution neural network
 -	README.md summarizing the results
--	requierments.txt containing the needed environment
--	utils.py helper methods
--	![dataset_link.txt] (https://github.com/marija-kara/Self_driving_car/blob/main/Simulator%20version.txt) google drive dataset link
+-	[requierments.txt](https://github.com/marija-kara/Self_driving_car/blob/main/requirements.txt) containing the needed environment
+-	[utils.py](https://github.com/marija-kara/Self_driving_car/blob/main/utils.py) helper methods
+-	[dataset_link.txt](https://github.com/marija-kara/Self_driving_car/blob/main/dataset_link.txt) google drive dataset link
 
 ### Requirements
 | Library | Version |
