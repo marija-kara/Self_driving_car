@@ -23,7 +23,7 @@ Submission includes all required files and can be used to run the simulator in a
 -	README.md summarizing the results
 -	requierments.txt containing the needed environment
 -	utils.py helper methods
--	[dataset_link.txt] (https://github.com/marija-kara/Self_driving_car/blob/main/Simulator%20version.txt) google drive dataset link
+-	![dataset_link.txt] (https://github.com/marija-kara/Self_driving_car/blob/main/Simulator%20version.txt) google drive dataset link
 
 ### Requirements
 | Library | Version |
