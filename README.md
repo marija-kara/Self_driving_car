@@ -64,8 +64,10 @@ We must be very careful while using deep learning models, because they have a te
 
 ![data_augmentation](https://github.com/marija-kara/Self_driving_car/blob/main/pictures/augmentation.png?raw=true)
 
-**Augmentation techniques**
-1. Image flip
 
-  ⋅⋅* First we flip all images and change the sign of the predicted angle to simulate driving in the opposite direction and ot double our dataset.
-2. 
+**Augmentation techniques**
+1. Image flip 
+* First we flip all images and change the sign of the predicted angle to simulate driving in the opposite direction and ot double our dataset.
+2. Change image brightness
+4. Random shadow
+5. Random noise
