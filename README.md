@@ -38,6 +38,13 @@ The basic goal was to use data collected from Udacity’s Self Driving Car Simul
 
 ![Steps](https://github.com/marija-kara/Self_driving_car/blob/main/pictures/fazi.png?raw=true)
 
+### Datasets
+
+We tried using three different datasets:
+* A manually created dataset on track 1 driven only in one direction
+* Another manually created dataset on track 1 where we drive close to the bounds and recover to teach the model how to avoid going out of bounds — in the real world this would be called reckless or drink driving
+* A manually created dataset on track 1 driven in both directions to help our model generalise.
+
 ### Data Collection
 
 First we downloaded the open source Udacity simulator from the following repo:
