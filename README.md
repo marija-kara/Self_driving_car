@@ -85,4 +85,4 @@ We must be very careful while using deep learning models, because they have a te
 
 ### Image Generator
 
-Since we are generating new and augmented images on the fly as we train the model, we create generator to produce new images at each batch.
+Since we are generating new and augmented images on the fly as we train the model, we create generator to produce new images at each batch. Also this will help for the purposes of ensuring efficiency of the memory used. The generator performs the data augmentation and preprocessing functions in batches. 
