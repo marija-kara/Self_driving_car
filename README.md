@@ -4,7 +4,7 @@
 ### Files Submitted
 Submission includes all required files and can be used to run the simulator in autonomous mode.
 
-**Our project includes the following files:**
+**The following resources can be found in this github repository:**
 
 🔴-	model.py containing the script to create and train the model
 -	[drive.py](https://github.com/marija-kara/Self_driving_car/blob/main/drive.py) for driving the car in autonomous mode
