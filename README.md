@@ -71,9 +71,6 @@ The functions we use for data preprocessing are as follows:
 By utilizing the said functions, we remove the parts of the image that are unnecessary for the model, such as the sky. We normalize the image and add YUV color scheme. 
 We must be very careful while using deep learning models, because they have a tendency to overfit the data. One way to avoid overfitting is to collect a lot of data. For our car example, this will require us to drive the car under different weather, lighting, traffic and road conditions. Other way to avoid overfitting is to use augmentation. Augmentation helps us extract as much information from data as possible. All the training was based on driving on track 1 in one direction alone. The model never saw track 2 in training, but with image augmentation (flipping, changing brightness, adding shadow and noise) and using data from all the cameras (left, right and center) the model was able to learn general rules of driving that helped translate this learning to a different track.
 
-![data_augmentation](https://github.com/marija-kara/Self_driving_car/blob/main/pictures/augmentation.png?raw=true)
-
-
 **Augmentation techniques**
 1. Image flip 
    * First we flip all images and change the sign of the predicted angle to simulate driving in the opposite direction and ot double our dataset.
@@ -83,3 +80,5 @@ We must be very careful while using deep learning models, because they have a te
    * The next augmentation we will add is shadow augmentation where random shadows are cast across the image.
 4. Random noise
    * With the last we are adding random noise to the image by taking into consideration the unclean conditions by simulating dust or dirt particles and distortions while capturing the image.
+
+![data_augmentation](https://github.com/marija-kara/Self_driving_car/blob/main/pictures/augmentation.png?raw=true)
