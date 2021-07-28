@@ -36,6 +36,8 @@ The basic goal was to use data collected from Udacity’s Self Driving Car Simul
 -	Test that the model successfully drives around track one without leaving the road
 -	Summarize the results with a written report
 
+![Steps](https://github.com/marija-kara/Self_driving_car/blob/main/pictures/fazi.png?raw=true)
+
 ### Data Collection
 
 First we downloaded the open source Udacity simulator from the following repo:
