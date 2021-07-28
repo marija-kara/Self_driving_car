@@ -67,10 +67,10 @@ We must be very careful while using deep learning models, because they have a te
 
 **Augmentation techniques**
 1. Image flip 
-  * First we flip all images and change the sign of the predicted angle to simulate driving in the opposite direction and ot double our dataset.
+   * First we flip all images and change the sign of the predicted angle to simulate driving in the opposite direction and ot double our dataset.
 2. Change image brightness
-  * We will generate images with different brightness to simulate day and night conditions.
+   * We will generate images with different brightness to simulate day and night conditions.
 3. Random shadow
-  * The next augmentation we will add is shadow augmentation where random shadows are cast across the image.
+   * The next augmentation we will add is shadow augmentation where random shadows are cast across the image.
 4. Random noise
-  * With the last we are adding random noise to the image by taking into consideration the unclean conditions by simulating dust or dirt particles and distortions while capturing the image.
+   * With the last we are adding random noise to the image by taking into consideration the unclean conditions by simulating dust or dirt particles and distortions while capturing the image.
