@@ -82,3 +82,7 @@ We must be very careful while using deep learning models, because they have a te
    * The next augmentation we will add is shadow augmentation where random shadows are cast across the image.
 
 ![data_augmentation](https://github.com/marija-kara/Self_driving_car/blob/main/pictures/augmentation.png?raw=true)
+
+### Image Generator
+
+Since we are generating new and augmented images on the fly as we train the model, we create generator to produce new images at each batch.
