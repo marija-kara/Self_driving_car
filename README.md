@@ -1,5 +1,9 @@
 # Final Project at the Data Science Academy
 ## Self-Driving Car
+***Team members***
+*- Marjan Angeleski
+*- Violeta Trajkova
+*- Marija Karagonov
 
 ### Files Submitted
 Submission includes all required files and can be used to run the simulator in autonomous mode.
