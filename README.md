@@ -1,19 +1,21 @@
 # Final Project at the Data Science Academy
 ## Self-Driving Car
 ***Team members***
-*- Marjan Angeleski
-*- Violeta Trajkova
-*- Marija Karagonov
+- Marjan Angeleski
+- Violeta Trajkova
+- Marija Karagonov
+
+## Intro
+What a challenge!! It took us handful of datasets, and different Neural Network models (with a lot of parameters tuning), different technique for preprocessing and augmentation of the data to get here - finally a self-driving car. During this proces in our understanig it is a must to have a good machine for collecting good data from the simulator. Once we got a good dataset
 
 ### Files Submitted
 Submission includes all required files and can be used to run the simulator in autonomous mode.
 
 **The following resources can be found in this github repository:**
 
-🔴-	model.py containing the script to create and train the model
+-	[Self_driving_car.ipynb] containing the script to create and train the model
 -	[drive.py](https://github.com/marija-kara/Self_driving_car/blob/main/drive.py) for driving the car in autonomous mode
-
-🔴-	model.h5 containing a trained convolution neural network
+-	model.h5 containing a trained convolution neural network
 -	README.md summarizing the results
 -	[requierments.txt](https://github.com/marija-kara/Self_driving_car/blob/main/requirements.txt) containing the needed environment
 -	[utils.py](https://github.com/marija-kara/Self_driving_car/blob/main/utils.py) helper methods
@@ -31,7 +33,7 @@ Submission includes all required files and can be used to run the simulator in a
 | Eventlet |	0.31.1 |
 
 ### Objective
-The basic goal was to use data collected from Udacity’s Self Driving Car Simulator to build a model that would predict the steering angles for the vehicle. This problem was well suited for Convolutional Neural Networks (CNNs) that take in the forward-facing images from the vehicle and output a steering angle. Аs part of the model we trained and compared couple of Convolutional Neural Network (CNN) models with largely varying architectures. The results suggest that the choice of CNN architecture for this type of task is less important than the data and augmentation techniques used. Because it is not possible to drive under all possible scenarios on the track, so the deep learning algorithm will have to learn general rules for driving. This challenge can be treated as regression problem. A model's success was measured using the root mean square error (MSA) of the predicted steering versus the actual human steering.
+The basic goal was to use data collected from Udacity’s Self Driving Car Simulator to build a model that would predict the steering angles for the vehicle. This problem was well suited for Convolutional Neural Networks (CNNs) that take in the forward-facing images from the vehicle and output a steering angle. Аs part of the model we trained and compared couple of Convolutional Neural Network (CNN) models with largely varying architectures. The results suggest that the choice of CNN architecture for this type of task is less important than the data and augmentation techniques used. Because it is not possible to drive under all possible scenarios on the track, so the deep learning algorithm will have to learn general rules for driving. This challenge can be treated as regression problem. A model's success was measured using the root mean square error (MSE) of the predicted steering versus the actual human steering.
 
 **During the process we applied the following steps:**
 -	Use the simulator to collect data of good driving behavior
