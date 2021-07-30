@@ -70,7 +70,7 @@ Namely, the frames captured by the three cameras are fed into the system togethe
 In this phase, we couple each frame with its corresponding steering angle and, as a result, we produce the feature and the label. 
 The functions we use for data preprocessing are as follows:
 
-    - Crop ( top 50 pixels and bottom 20 pixels)
+    - Crop (top 50 pixels and bottom 20 pixels)
     - YUV color
     - Normalization (image/255.0)
 
