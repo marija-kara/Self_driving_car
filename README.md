@@ -6,7 +6,7 @@
 - Marjan Angeleski
 
 ## Intro
-What a challenge!! It took us handful of datasets, and different Neural Network models (with a lot of parameters tuning), different technique for preprocessing and augmentation of the data to get here - finally a self-driving car. During this proces in our understanig it is a must to have a good machine for collecting good data from the simulator. Once we got a good dataset
+What a challenge!! It took us handful of datasets, and different Neural Network models (with a lot of parameters tuning), different technique for preprocessing and augmentation of the data to get here - finally a self-driving car. During this process in our understanding it is a must to have a good machine for collecting good data from the simulator. Also because we did not own a computer with a GPU we had difficulties during the training of the model, such as taking too long to train the model or not been able to continue to training till the end because of the online GPU limit on the kernel that we used. This project can be challenging if you are new to the field of the Machine Learning (as we are), many of the steps during this project may be confusing, but we hope that this notebook will make it easy for someone with basic Python knowledge to implement.
 
 ### Files Submitted
 Submission includes all required files and can be used to run the simulator in autonomous mode.
@@ -15,7 +15,7 @@ Submission includes all required files and can be used to run the simulator in a
 
 -	[Self_driving_car.ipynb] containing the script to create and train the model
 -	[drive.py](https://github.com/marija-kara/Self_driving_car/blob/main/drive.py) for driving the car in autonomous mode
--	model.h5 containing a trained convolution neural network
+-	[model.h5] containing a trained convolution neural network
 -	README.md summarizing the results
 -	[requierments.txt](https://github.com/marija-kara/Self_driving_car/blob/main/requirements.txt) containing the needed environment
 -	[utils.py](https://github.com/marija-kara/Self_driving_car/blob/main/utils.py) helper methods
@@ -91,4 +91,7 @@ We must be very careful while using deep learning models, because they have a te
 
 ### Image Generator
 
-Since we are generating new and augmented images on the fly as we train the model, we create generator to produce new images at each batch. Also this will help for the purposes of ensuring efficiency of the memory used. The generator performs the data augmentation and preprocessing functions in batches. 
+Since we are generating new and augmented images on the fly as we train the model, we create generator to produce new images at each batch. Also this will help for the purposes of ensuring efficiency of the memory used. The generator performs the data augmentation and preprocessing functions in batches. The accompanying histograms of steering angles of those augmented images shows much more balance:
+![target_batch_after_generator](https://github.com/marija-kara/Self_driving_car/blob/main/pictures/target_batch_after_generator.png?raw=true)
+![target_batch_after_generator_2](https://github.com/marija-kara/Self_driving_car/blob/main/pictures/target_batch_after_generator_2.png?raw=true)
+![target_batch_after_generator_3](https://github.com/marija-kara/Self_driving_car/blob/main/pictures/target_batch_after_generator_3.png?raw=true)
