@@ -92,6 +92,7 @@ We must be very careful while using deep learning models, because they have a te
 ### Image Generator
 
 Since we are generating new and augmented images on the fly as we train the model, we create generator to produce new images at each batch. Also this will help for the purposes of ensuring efficiency of the memory used. The generator performs the data augmentation and preprocessing functions in batches. The accompanying histograms of steering angles  from different batches of those augmented images shows much more balance:
+
 ![target_batch_after_generator](https://github.com/marija-kara/Self_driving_car/blob/main/pictures/target_batch_after_generator.png?raw=true)
 ![target_batch_after_generator_2](https://github.com/marija-kara/Self_driving_car/blob/main/pictures/target_batch_after_generator_2.png?raw=true)
 ![target_batch_after_generator_3](https://github.com/marija-kara/Self_driving_car/blob/main/pictures/target_batch_after_generator_3.png?raw=true)
