@@ -1,9 +1,9 @@
 # Final Project at the Data Science Academy
 ## Self-Driving Car
 ***Team members***
-- Marjan Angeleski
-- Violeta Trajkova
 - Marija Karagonov
+- Violeta Trajkova
+- Marjan Angeleski
 
 ## Intro
 What a challenge!! It took us handful of datasets, and different Neural Network models (with a lot of parameters tuning), different technique for preprocessing and augmentation of the data to get here - finally a self-driving car. During this proces in our understanig it is a must to have a good machine for collecting good data from the simulator. Once we got a good dataset
