@@ -47,9 +47,9 @@ The basic goal was to use data collected from Udacity’s Self Driving Car Simul
 ### Datasets
 
 We tried using three different datasets:
-* A manually created dataset on track 1 driven only in one direction
-* Another manually created dataset on track 1 where we drive close to the bounds and recover to teach the model how to avoid going out of bounds — in the real world this would be called reckless or drink driving
-* A manually created dataset on track 1 driven in both directions to help our model generalise.
+    * A manually created dataset on track 1 driven only in one direction
+    * Another manually created dataset on track 1 where we drive close to the bounds and recover to teach the model how to avoid going out of bounds — in the real world this           would be called reckless or drink driving
+    * A manually created dataset on track 1 driven in both directions to help our model generalise.
 
 ### Data Collection
 
@@ -69,10 +69,10 @@ Namely, the frames captured by the three cameras are fed into the system togethe
 
 In this phase, we couple each frame with its corresponding steering angle and, as a result, we produce the feature and the label. 
 The functions we use for data preprocessing are as follows:
-- Crop ( top 50 pixels and bottom 20 pixels)
 
-🔴- YUV color
-- Normalization (image/255.0)
+    - Crop ( top 50 pixels and bottom 20 pixels)
+    - YUV color
+    - Normalization (image/255.0)
 
 By utilizing the said functions, we remove the parts of the image that are unnecessary for the model, such as the sky. We normalize the image and add YUV color scheme. 
 We must be very careful while using deep learning models, because they have a tendency to overfit the data. One way to avoid overfitting is to collect a lot of data. For our car example, this will require us to drive the car under different weather, lighting, traffic and road conditions. Other way to avoid overfitting is to use augmentation. Augmentation helps us extract as much information from data as possible. All the training was based on driving on track 1 in one direction alone. The model never saw track 2 in training, but with image augmentation (flipping, changing brightness, adding shadow and noise) and using data from all the cameras (left, right and center) the model was able to learn general rules of driving that helped translate this learning to a different track.
@@ -101,7 +101,7 @@ Since we are generating new and augmented images on the fly as we train the mode
 Firstly we tried many different models (based on AlexNet, VGG or ResNet) but we settled on modified architecture used in the NVIDIA paper as it gave us the best results. We used five Convolutional layers three with stride of 2x2, and the remaining two with stride of 1x1. We flatten the output of the convolutional layers to create a single long feature vector. Then three deeply connected neural network layers with dropout to prevent overfitting.
 
 The model architecture can be seen below:
-!(model)[https://github.com/marija-kara/Self_driving_car/blob/main/pictures/model.png?raw=true]
+![model](https://github.com/marija-kara/Self_driving_car/blob/main/pictures/model.png?raw=true)
 
 ### Model performance
 Video below shows the performance of algorithm on the track 1 on which the original data was collected. The car is able to drive around for hours.
