@@ -91,7 +91,17 @@ We must be very careful while using deep learning models, because they have a te
 
 ### Image Generator
 
-Since we are generating new and augmented images on the fly as we train the model, we create generator to produce new images at each batch. Also this will help for the purposes of ensuring efficiency of the memory used. The generator performs the data augmentation and preprocessing functions in batches. The accompanying histograms of steering angles of those augmented images shows much more balance:
+Since we are generating new and augmented images on the fly as we train the model, we create generator to produce new images at each batch. Also this will help for the purposes of ensuring efficiency of the memory used. The generator performs the data augmentation and preprocessing functions in batches. The accompanying histograms of steering angles  from different batches of those augmented images shows much more balance:
 ![target_batch_after_generator](https://github.com/marija-kara/Self_driving_car/blob/main/pictures/target_batch_after_generator.png?raw=true)
 ![target_batch_after_generator_2](https://github.com/marija-kara/Self_driving_car/blob/main/pictures/target_batch_after_generator_2.png?raw=true)
 ![target_batch_after_generator_3](https://github.com/marija-kara/Self_driving_car/blob/main/pictures/target_batch_after_generator_3.png?raw=true)
+![target_batch_after_generator_4](https://github.com/marija-kara/Self_driving_car/blob/main/pictures/target_batch_after_generator_4.png?raw=true)
+
+### Model
+Firstly we tried many different models (based on AlexNet, VGG or ResNet) but we settled on modified architecture used in the NVIDIA paper as it gave us the best results. We used five Convolutional layers three with stride of 2x2, and the remaining two with stride of 1x1. We flatten the output of the convolutional layers to create a single long feature vector. Then three deeply connected neural network layers with dropout to prevent overfitting.
+
+The model architecture can be seen below:
+!(model)[https://github.com/marija-kara/Self_driving_car/blob/main/pictures/model.png?raw=true]
+
+### Model performance
+Video below shows the performance of algorithm on the track 1 on which the original data was collected. The car is able to drive around for hours.
