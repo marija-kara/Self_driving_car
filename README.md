@@ -109,4 +109,4 @@ Video below shows the performance of algorithm on the track 1 on which the origi
 
 [<img src="https://github.com/marija-kara/Self_driving_car/blob/main/pictures/Screenshot%202021-08-10%20010736.png" width="500" height="400"/>](http://www.youtube.com/watch?v=Gl6daRTwBYQ "Final project - Udacity Self Driving Car - full drive")
 
-![](https://youtu.be/EooSwKneu9o)
+[<img src="https://github.com/marija-kara/Self_driving_car/blob/main/pictures/Screenshot%202021-08-10%20012103.png" width="500" height="400"/>](https://youtu.be/EooSwKneu9o "Final project - mistakes")
