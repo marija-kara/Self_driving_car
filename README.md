@@ -106,3 +106,7 @@ The model architecture can be seen below:
 
 ### Model performance
 Video below shows the performance of algorithm on the track 1 on which the original data was collected. The car is able to drive around for hours.
+
+!(https://youtu.be/Gl6daRTwBYQ)
+
+!(https://youtu.be/EooSwKneu9o)
