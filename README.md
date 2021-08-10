@@ -107,8 +107,21 @@ The model architecture can be seen below:
 ![model](https://github.com/marija-kara/Self_driving_car/blob/main/pictures/model.png?raw=true)
 
 ### Model performance
+#### Training loss and validation loss
+The training loss indicates how well the model is fitting the training data, while the validation loss indicates how well the model fits new data.
+The model is converging quite good in just 32 epochs. Feel free to play with the hyper-parameters for better results.
+
+![image (2)](https://github.com/marija-kara/Self_driving_car/blob/main/pictures/image%20(2).png)
+
 Video below shows the performance of algorithm on the track 1 on which the original data was collected. The car is able to drive around for hours.
 
 [<img src="https://github.com/marija-kara/Self_driving_car/blob/main/pictures/Screenshot%202021-08-10%20012103.png" width="500" height="400"/>](https://youtu.be/EooSwKneu9o "Final project - mistakes")
 
+The performance on the training track was a little off but we think that’s fine as it shows that the car was not merely memorizing the track. It recovered successfully from a few critical situations, even though none of those maneuvers had been performed during training.
+
 [<img src="https://github.com/marija-kara/Self_driving_car/blob/main/pictures/Screenshot%202021-08-10%20010736.png" width="500" height="400"/>](http://www.youtube.com/watch?v=Gl6daRTwBYQ "Final project - Udacity Self Driving Car - full drive")
+
+### Conclusions
+
+Summarizing, this was a really interesting and at the same time challenging project to work on. The models that performed best on 1 track did poorly on Track_2, hence
+we probably need to try new image augmentation and preprocessing function for better performance.
