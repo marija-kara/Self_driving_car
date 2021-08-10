@@ -121,7 +121,7 @@ The performance on the training track was a little off but we think that’s fin
 
 [<img src="https://github.com/marija-kara/Self_driving_car/blob/main/pictures/Screenshot%202021-08-10%20010736.png" width="500" height="400"/>](http://www.youtube.com/watch?v=Gl6daRTwBYQ "Final project - Udacity Self Driving Car - full drive")
 
-### Conclusions
+### Conclusion
 
 Summarizing, this was a really interesting and at the same time challenging project to work on. The models that performed best on 1 track did poorly on Track_2, hence
-we probably need to try new image augmentation and preprocessing function for better performance.
+we probably need to try additional image augmentation and preprocessing functions for better performance.
