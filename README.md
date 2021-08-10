@@ -107,6 +107,6 @@ The model architecture can be seen below:
 ### Model performance
 Video below shows the performance of algorithm on the track 1 on which the original data was collected. The car is able to drive around for hours.
 
-[<img src="https://github.com/marija-kara/Self_driving_car/blob/main/pictures/Screenshot%202021-08-10%20010736.png" width="500" height="400"/>](http://www.youtube.com/watch?v=Gl6daRTwBYQ "Final project - Udacity Self Driving Car - full drive")
-
 [<img src="https://github.com/marija-kara/Self_driving_car/blob/main/pictures/Screenshot%202021-08-10%20012103.png" width="500" height="400"/>](https://youtu.be/EooSwKneu9o "Final project - mistakes")
+
+[<img src="https://github.com/marija-kara/Self_driving_car/blob/main/pictures/Screenshot%202021-08-10%20010736.png" width="500" height="400"/>](http://www.youtube.com/watch?v=Gl6daRTwBYQ "Final project - Udacity Self Driving Car - full drive")
