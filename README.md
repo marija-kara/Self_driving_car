@@ -13,10 +13,10 @@ Submission includes all required files and can be used to run the simulator in a
 
 **The following resources can be found in this github repository:**
 
--	[Self_driving_car.ipynb] containing the script to create and train the model
+-	[Self_driving_car.ipynb](https://github.com/marija-kara/Self_driving_car/blob/main/Self_driving_car_project.ipynb) containing the script to create and train the model
 -	[drive.py](https://github.com/marija-kara/Self_driving_car/blob/main/drive.py) for driving the car in autonomous mode
--	[model.h5] containing a trained convolution neural network
--	README.md summarizing the results
+-	[model.h5](https://github.com/marija-kara/Self_driving_car/blob/main/model.h5) containing a trained convolution neural network
+-	[README.md](https://github.com/marija-kara/Self_driving_car/blob/main/README.md) summarizing the results
 -	[requierments.txt](https://github.com/marija-kara/Self_driving_car/blob/main/requirements.txt) containing the needed environment
 -	[utils.py](https://github.com/marija-kara/Self_driving_car/blob/main/utils.py) helper methods
 -	[dataset_link.txt](https://github.com/marija-kara/Self_driving_car/blob/main/dataset_link.txt) google drive dataset link
@@ -50,6 +50,8 @@ We tried using three different datasets:
     * A manually created dataset on track 1 driven only in one direction
     * Another manually created dataset on track 1 where we drive close to the bounds and recover to teach the model how to avoid going out of bounds — in the real world this           would be called reckless or drink driving
     * A manually created dataset on track 1 driven in both directions to help our model generalise.
+    
+![data](https://github.com/marija-kara/Self_driving_car/blob/main/pictures/image%20(1).png)
 
 ### Data Collection
 
