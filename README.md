@@ -72,9 +72,9 @@ Namely, the frames captured by the three cameras are fed into the system togethe
 In this phase, we couple each frame with its corresponding steering angle and, as a result, we produce the feature and the label. 
 The functions we use for data preprocessing are as follows:
 
-    - Crop (top 50 pixels and bottom 20 pixels)
-    - YUV color
-    - Normalization (image/255.0)
+   - Crop (top 50 pixels and bottom 20 pixels)
+   - YUV color
+   - Normalization (image/255.0)
 
 By utilizing the said functions, we remove the parts of the image that are unnecessary for the model, such as the sky. We normalize the image and add YUV color scheme. 
 We must be very careful while using deep learning models, because they have a tendency to overfit the data. One way to avoid overfitting is to collect a lot of data. For our car example, this will require us to drive the car under different weather, lighting, traffic and road conditions. Other way to avoid overfitting is to use augmentation. Augmentation helps us extract as much information from data as possible. All the training was based on driving on track 1 in one direction alone. The model never saw track 2 in training, but with image augmentation (flipping, changing brightness, adding shadow and noise) and using data from all the cameras (left, right and center) the model was able to learn general rules of driving that helped translate this learning to a different track.
